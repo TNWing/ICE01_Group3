@@ -9,11 +9,12 @@ Version: 1.0
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+/*
 @import url('reset.css');
 @import url('basic.css');
 @import url('frontpage.css');
 @import url('mediaqueries.css');
-
+*/
 /* =Notes
 --------------------------------------------------------------
 This stylesheet uses rem values with a pixel fallback. The rem
