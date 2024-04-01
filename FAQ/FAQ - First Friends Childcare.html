@@ -223,12 +223,30 @@ var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions
 	font-family:"Montserrat",Times,serif
 	}
 
-	.hover_menu{
+	.standard_menu{
+		padding-left: 30px;
+		display:inline-block;
+  		vertical-align:middle;
+	}
 
+	.hover_menu{
+		padding-left: 30px;
+	  	display:inline-block;
+  		vertical-align:middle;
 	}
 	.hover_content{
-  display: none;
-  position: absolute;
+	  display: none;
+	  position: absolute;
+	  background-color: #f1f1f1;
+	  min-width: 300px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+	.hover_content a {
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
 	}
 	/* Show the dropdown menu on hover */
 .hover_menu:hover .hover_content {display: block;}
@@ -241,15 +259,15 @@ var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions
 
 <div id="page" class="hfeed site">
 
-	<header>
+	<header style="position:relative; display: inline-block;">
 		<h1>Fist Friends Childcare</h1>
-			<div>Home</div>
+			<div class="standard_menu">Home</div>
 			<div class="hover_menu">About Us
 				<div class="hover_content">
 					<a href="">Our Philosophy</a>
 					<a href="">Tuitions and Admissions</a>
 					<a href="">Testimonials</a>
-					<a href="">FAQ</a>
+					<a href="./FAQ - First Friends Childcare.html">FAQ</a>
 				</div>
 			</div>
 			<div class="hover_menu">Our Programs
@@ -260,14 +278,15 @@ var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions
 
 				</div>
 			</div>
-			<div>Parents</div>
-			<div>Gallery</div>
-			<div>Get in Touch</div>
+			<div class="standard_menu">Parents</div>
+			<div class="standard_menu">Gallery</div>
+			<div class="standard_menu">Get in Touch</div>
 
 
 
 	</header>
 
+	<br><br>
 
 
 	<div id="primary" class="content-area">
