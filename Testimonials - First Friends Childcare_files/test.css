@@ -1,0 +1,21 @@
+.wpb_wrapper{
+    text-align: center;
+    border-style: dotted;
+    padding-top: 10px;
+
+}
+
+.wpb_text_column{
+    background-color: RGB(250,231,141,0.4);
+    padding: 50px 100px;
+    text-align: left;
+}
+.wpb_content_element{
+
+}
+em{
+    font-weight: bold;
+}
+.image{
+    width: 100%
+}
